@@ -1,0 +1,18 @@
+{
+  "name": "wecare",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "vue-100vh": "^0.1.1",
+    "vue-div-100vh": "^0.1.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2"
+  }
+}
