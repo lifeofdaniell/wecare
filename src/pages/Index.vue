@@ -293,13 +293,13 @@ export default {
       }
     });
     document.querySelector(".event1").addEventListener("click", () => {
-      window.scrollTo(0, 1878);
+      window.scrollTo(0, 1900);
     });
     document.querySelector(".event2").addEventListener("click", () => {
-      window.scrollTo(0, 2700);
+      window.scrollTo(0, 2750);
     });
     document.querySelector(".event3").addEventListener("click", () => {
-      window.scrollTo(0, 3540);
+      window.scrollTo(0, 3580);
     });
   },
 };
@@ -646,6 +646,11 @@ export default {
       max-width: 600px;
       margin: 0;
     }
+    @media (min-width: 1400px) {
+      font-size: 3.125rem;
+      max-width: 500px;
+      margin: 0;
+    }
   }
   h4 {
     font-size: 1rem;
@@ -717,7 +722,7 @@ export default {
       width: 45%;
     }
     @media (min-width: 1300px) {
-      margin-top: -145px;
+      margin-top: -200px;
       margin-left: 7.5%;
       width: 45%;
     }
@@ -846,6 +851,9 @@ export default {
       @media (max-width: 1250px) {
         top: 25%;
       }
+      @media (min-width: 1400px) {
+        top: 20%;
+      }
     }
     .event1 {
       margin-top: 50px;
@@ -937,7 +945,7 @@ export default {
         margin-top: 75px;
       }
       :last-child {
-        margin-bottom: 100px;
+        margin-bottom: 150px;
       }
       :not(:last-child) {
         @media (max-width: 1250px) {
@@ -983,6 +991,9 @@ export default {
       @media (min-width: 1024px) {
         width: 50%;
       }
+      @media (min-width: 1300px) {
+        width: 40%;
+      }
     }
   }
 
@@ -1025,9 +1036,12 @@ export default {
   margin-left: 0%;
   .Don {
     text-align: center;
-    margin: 0px;
-    @media (min-width: 1250px) {
-      margin-bottom: 120px;
+    margin: 0px 0 100px 0;
+    @media (min-width: 750px) {
+      margin-bottom: 80px;
+    }
+    @media (min-width: 1024px) {
+      margin-bottom: 125px;
     }
     h1 {
       text-align: center;
@@ -1040,8 +1054,9 @@ export default {
       color: white;
       line-height: 1;
       width: 90%;
-      @media (min-width: 1250px) {
-        width: 35%;
+
+      @media (min-width: 1024px) {
+        width: 45%;
       }
     }
     a {

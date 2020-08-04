@@ -231,27 +231,25 @@ export default {
     display: none;
   }
   a {
-    font-size: 16px;
-    font-weight: 400;
-    transition: all 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    &:not(:first-child) {
+      font-size: 16px;
+      font-weight: 400;
+      background-color: rgba(255, 255, 255, 1);
+      padding: 8px;
+      border-radius: 5px;
+      transition: all 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
 
-    &:hover {
-      color: #c41c48;
+      &:hover {
+        background-color: rgb(255, 209, 224);
+        color: #c41c48;
+      }
     }
   }
   .donate {
     color: #c41c48;
-
-    &:hover {
-      color: #801532;
-    }
   }
   .volunteer {
     color: #c41c48;
-
-    &:hover {
-      color: #801532;
-    }
   }
 }
 .nav {
@@ -261,7 +259,7 @@ export default {
   left: 0;
   right: 0;
   margin: 0 auto;
-  padding: 20px 0%;
+  padding: 10px 0%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
