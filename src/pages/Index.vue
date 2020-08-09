@@ -36,11 +36,7 @@
     <div class="MBLinksContainerRed inactive">
       <div class="MBLogoRed">
         <g-link to="/">
-          <img
-            alt="weCare logo"
-            src="../assets/wecarelogowhite.png"
-            width="50"
-          />
+          <img alt="weCare logo" src="../assets/wecarelogowhite.png" width="50" />
         </g-link>
       </div>
       <div class="MBIconContainerRed">
@@ -73,11 +69,7 @@
     <div class="MBLinksContainerRed2 inactive">
       <div class="MBLogoRed2">
         <g-link to="/">
-          <img
-            alt="weCare logo"
-            src="../assets/wecarelogowhite.png"
-            width="50"
-          />
+          <img alt="weCare logo" src="../assets/wecarelogowhite.png" width="50" />
         </g-link>
       </div>
       <div class="MBIconContainerRed2">
@@ -110,9 +102,7 @@
     <div>
       <div class="header">
         <h1>Contribute your quota in making the world a better place.</h1>
-        <h4>
-          Use your time to serve the world and you'll find that it serves you.
-        </h4>
+        <h4>Use your time to serve the world and you'll find that it serves you.</h4>
         <g-link class="volunteers" to="/">Become a Volunteer</g-link>
       </div>
       <NavWhite />
@@ -143,9 +133,9 @@
               <div class="eventscroll"></div>
             </div>
             <div class="event1">
-              <img src="../assets/image1.png" />
+              <img src="../assets/image2.png" width="650" />
               <h3>Live To Love Maiden Edition</h3>
-              <p class=" p1 fade-in">
+              <p class="p1 fade-in">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Tempora non maxime ex, eveniet ipsa molestiae ea.
               </p>
@@ -169,7 +159,7 @@
             </div>
           </div>
           <div class="images">
-            <img src="../assets/image1.png" />
+            <img src="../assets/image2.png" />
             <img src="../assets/image1.png" />
             <img src="../assets/image1.png" />
           </div>
@@ -192,9 +182,7 @@
       <div class="section4">
         <div class="sec4">
           <div class="Don">
-            <h1>
-              "We make a living by what we get, we make a life by what we give"
-            </h1>
+            <h1>"We make a living by what we get, we make a life by what we give"</h1>
             <g-link to="/">Donate</g-link>
           </div>
         </div>
@@ -233,7 +221,7 @@ export default {
     const overlay2 = document.querySelector(".MBLinksContainerRed");
     const overlay3 = document.querySelector(".MBLinksContainerRed2");
 
-    closeHamburger3.addEventListener("click", function() {
+    closeHamburger3.addEventListener("click", function () {
       overlay3.classList.toggle("inactive");
 
       if (overlay3.classList.contains("inactive")) {
@@ -242,7 +230,7 @@ export default {
       }
     });
 
-    closeHamburger2.addEventListener("click", function() {
+    closeHamburger2.addEventListener("click", function () {
       overlay2.classList.toggle("inactive");
 
       if (overlay2.classList.contains("inactive")) {
@@ -251,7 +239,7 @@ export default {
       }
     });
 
-    closeHamburger.addEventListener("click", function() {
+    closeHamburger.addEventListener("click", function () {
       overlay.classList.toggle("inactive");
 
       if (overlay.classList.contains("inactive")) {
@@ -942,7 +930,8 @@ export default {
         width: 615px;
       }
       :first-child {
-        margin-top: 75px;
+        width: 500px;
+        margin-top: 50px;
       }
       :last-child {
         margin-bottom: 150px;
@@ -1068,6 +1057,11 @@ export default {
       background: white;
       border-radius: 10px;
       padding: 1rem 3rem;
+
+      &:hover {
+        color: white;
+        background: #911636;
+      }
     }
   }
 }

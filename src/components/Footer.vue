@@ -1,20 +1,11 @@
 <template>
   <div>
     <div class="sec4b">
-      <img
-        class="mlogo"
-        alt="weCare logo"
-        src="../assets/wecarelogowhite.png"
-        width="35"
-      />
+      <img class="mlogo" alt="weCare logo" src="../assets/wecarelogowhite.png" width="35" />
       <p>love. care. share.</p>
       <div class="footer">
         <div class="footextdsk">
-          <img
-            alt="weCare logo"
-            src="../assets/wecarelogowhite.png"
-            width="60"
-          />
+          <img alt="weCare logo" src="../assets/wecarelogowhite.png" width="60" />
           <p>love. care. share.</p>
           <h4>All Rights Reserved &#169; 2020 WeCare.</h4>
           <!-- <p>Designed and Built by Areola Daniel</p> -->
@@ -111,7 +102,7 @@ export default {
     margin-left: 7.5%;
     margin-top: 35px;
     @media (min-width: 1024px) {
-      margin-top: 40px;
+      margin-top: 80px;
       width: 45%;
       justify-content: space-around;
       justify-items: center;
